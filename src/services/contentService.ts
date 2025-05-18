@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { authHeader } from './authService';
 
-const API_URL = 'http://localhost:3300/api';
+const API_URL = 'https://api.adhyan.guru/api';
 
 // Public content APIs (no auth required)
 

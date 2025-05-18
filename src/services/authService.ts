@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3300/api';
+const API_URL = 'https://api.adhyan.guru/api';
 
 // Define user and auth types
 export interface User {

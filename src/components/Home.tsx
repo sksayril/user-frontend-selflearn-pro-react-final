@@ -36,7 +36,7 @@ const Home = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch('http://localhost:3300/api/categories/parents');
+        const response = await fetch('https://api.adhyan.guru/api/categories/parents');
         if (!response.ok) {
           throw new Error('Failed to fetch categories');
         }

@@ -88,7 +88,7 @@ const StudyMaterials = () => {
   // Ref for top of page scrolling
   const pageTopRef = useRef<HTMLDivElement>(null);
 
-  const API_URL = 'http://localhost:3300/api';
+  const API_URL = 'https://api.adhyan.guru/api';
 
   // Wrap scrollToTop in useCallback to avoid dependency issues in useEffect
   const scrollToTop = useCallback(() => {

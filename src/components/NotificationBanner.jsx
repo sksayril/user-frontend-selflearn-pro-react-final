@@ -11,7 +11,7 @@ const NotificationBanner = () => {
     const fetchSponsorData = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch('http://localhost:3300/api/getsponser');
+        const response = await fetch('https://api.adhyan.guru/api/getsponser');
         
         if (!response.ok) {
           throw new Error('Failed to fetch sponsor data');

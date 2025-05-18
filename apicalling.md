@@ -4,7 +4,7 @@ This document provides comprehensive documentation for all endpoints available i
 
 ## Base URL
 
-All API requests should be made to: `http://localhost:3300` for local development.
+All API requests should be made to: `https://api.adhyan.guru` for local development.
 
 ## Authentication
 
