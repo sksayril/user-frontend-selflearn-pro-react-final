@@ -7,7 +7,7 @@ interface PDFViewerProps {
 
 const PDFViewer: React.FC<PDFViewerProps> = ({ url }) => {
   const { isLoaded, error } = useAdobeScript();
-  const clientId = '15ac5da699c7456f8f0acd2105b80c67'; // Hardcoded Client ID
+  const clientId = '5e2a9c163f214b07ad9d65fb43ba5cfc'; // Hardcoded Client ID
 
   useEffect(() => {
     if (isLoaded && !error && window.AdobeDC) {
