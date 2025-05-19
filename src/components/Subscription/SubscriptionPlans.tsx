@@ -105,7 +105,7 @@ const SubscriptionPlans: React.FC = () => {
             Monthly Subscription Plan
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            Get unlimited access to all study materials, quizzes, and more for just ₹499/month.
+            Get unlimited access to all study materials, quizzes, and more for just ₹499/Year.
           </p>
         </div>
 
@@ -127,7 +127,9 @@ const SubscriptionPlans: React.FC = () => {
                 <h3 className="text-white font-bold text-xl">Yearly Plan</h3>
                 <p className="text-blue-100 text-sm">Affordable access to premium content</p>
               </div>
-              <div className="text-white text-3xl font-bold">₹499<span className="text-sm font-normal">/mo</span></div>
+                  <div className="text-lg line-through opacity-70">₹999</div>
+
+              <div className="text-white text-3xl font-bold">₹499<span className="text-sm font-normal">/year</span></div>
             </div>
             <div className="p-6">
               <ul className="space-y-3 mb-6">
@@ -170,7 +172,7 @@ const SubscriptionPlans: React.FC = () => {
                     Processing...
                   </span>
                 ) : (
-                  'Subscribe Monthly'
+                  'Subscribe Yearly'
                 )}
               </button>
             </div>
